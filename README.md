@@ -4,7 +4,7 @@
 ## Description
 p2p chat example for multiple users behind NAT using tcp hole punching
 
-* relay.py - relay server file
+* relay.py - STUN server file
 * user.py - p2p user(client) file
 
 ## Environment
@@ -14,8 +14,11 @@ p2p chat example for multiple users behind NAT using tcp hole punching
 
 ### Case 2
 * Relay server
-* Client 1 behind an iptime rounter
-* Client 2 behind IPhone hotspot
+* Client 1 behind an iptime rounter(N704BCM model, NAT)
+* Client 2 behind IPhone hotspot(NAPT)
+
+## Report
+* https://blog.naver.com/sepaper/221964914853
 
 ## Reference
 * https://webnautes.tistory.com/1381
