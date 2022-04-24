@@ -9,11 +9,11 @@ p2p chat example for multiple users behind NAT using tcp hole punching
 
 ## Environment
 ### Case 1
-* Relay server
+* STUN server
 * Client 1, 2 behind different iptime routers
 
 ### Case 2
-* Relay server
+* STUN server
 * Client 1 behind an iptime rounter(N704BCM model, NAT)
 * Client 2 behind IPhone hotspot(NAPT)
 
